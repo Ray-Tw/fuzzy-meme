@@ -25,7 +25,7 @@ def service(client_socket, file_name, client_number):
     c = 0
 
     num_frame = int(client_socket.recv(16).decode('utf-8'))
-    directory = 'C:\\frame'+str(client_number)
+    directory = '\HW2\frame'+str(client_number)
     f_handler=open(str(client_number)+ '_' + str(file_name)+ '.txt', 'a')
     __console__ = sys.stdout
     while( c < num_frame ): #frame數
