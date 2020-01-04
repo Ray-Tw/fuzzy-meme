@@ -4,7 +4,6 @@ import cv2
 import os 
 import numpy as np
 import threading
-import time
 import socket
 import warnings
 warnings.simplefilter("ignore", DeprecationWarning) #fromstring is deprecated
